@@ -35,9 +35,7 @@ document.getElementById("search-btn").addEventListener("click", () => {
     let input = document.getElementById("input").value;
 
     if (input) {
-        getUser(input);
-        
-        
+        getUser(input);  
     } else {
         alert("Please Enter some value");
     }
